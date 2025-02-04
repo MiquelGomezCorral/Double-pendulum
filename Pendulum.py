@@ -3,7 +3,7 @@ import pygame as py
 from collections import deque
 
 G: float = 5
-
+tail_length: int = 100
 
 class DoublePendulum:
     def __init__(self, d1: float, d2: float, m1: float, m2: float,
@@ -55,7 +55,7 @@ class DoublePendulum:
 
         if TAIL:
             self.trail.append(pos2)
-            if len(self.trail) > 100:
+            if len(self.trail) > tail_length:
                 self.trail.popleft()
         else:
             self.trail = deque()

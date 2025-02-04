@@ -23,7 +23,8 @@ def main():
         'YELLOW': (255, 219, 41)
     }
     REFERENCE_FPS = 1200
-
+    N_PENDULUMS = 255
+    SHOW_TEXT = True
     TAIL = False
     RESET_SCREEN = True
     ONLY_HEAD = False
@@ -44,14 +45,15 @@ def main():
     ResetText = Text("Reset Screen (2)", True, 10, HEIGHT - text_size * 2 - text_offSet)
     TrailsText = Text("Trails (3)", False, 10, HEIGHT - text_size * 1 - text_offSet)
 
-    ResetKeyText = Text("Rest simulation (r)", None, text_size  - text_offSet, text_size * 2 - text_offSet)
+    ResetKeyText = Text("Rest simulation (r)", None, text_size  - text_offSet, text_size * 1 - text_offSet)
+    HideTextText = Text("Hide text (t)", None, text_size  - text_offSet, text_size * 2 - text_offSet)
 
-    TEXTS = [TrailsText, ResetText, HeadText, ResetKeyText]
+    TEXTS = [TrailsText, ResetText, HeadText, ResetKeyText, HideTextText]
     # ========================= COMPONENTS =========================
     PENDULUMS: list = []
 
     def reset_pendulums():
-        for i in range(1,255):
+        for i in range(1,N_PENDULUMS + 1):
             hue = i / 255.0
             rgb = colorsys.hsv_to_rgb(hue, 1.0, 1.0)
             color = tuple(int(c * 255) for c in rgb)
@@ -89,6 +91,8 @@ def main():
                 if event.key == py.K_ESCAPE:
                     RUNNING_GAME = False
                     break
+                if event.key == py.K_t:
+                    SHOW_TEXT = not SHOW_TEXT
                 if event.key == py.K_r:
                     SCREEN.fill((0, 0, 0))
                     PENDULUMS = []
@@ -111,6 +115,7 @@ def main():
         for Pendulum in PENDULUMS:
             Pendulum.draw_pendulum(SCREEN, deltaTime, TAIL, ONLY_HEAD)
         for text in TEXTS:
+            if not SHOW_TEXT: break
             draw_text(text)
 
         TrailsText.set_value(TAIL)
