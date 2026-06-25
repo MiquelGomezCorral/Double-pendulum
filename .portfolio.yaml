@@ -22,6 +22,10 @@ screenShoots:
   - readme_images/Pendulum (6).webp
   - readme_images/Pendulum (7).webp
 youtube: Gw-FDuWRabM
+keywords:
+  en: [double pendulum, chaos theory, chaotic system, physics simulation, nonlinear dynamics, bifurcation, sensitive dependence, initial conditions, mesmerizing visuals, Lagrangian mechanics, coupled oscillators]
+  es: [doble péndulo, teoría del caos, sistema caótico, simulación física, dinámica no lineal, bifurcación, dependencia sensible, condiciones iniciales, visuales hipnóticos, mecánica lagrangiana, osciladores acoplados]
 slug: Double-pendulum
 order: 45
 featured: false
+
