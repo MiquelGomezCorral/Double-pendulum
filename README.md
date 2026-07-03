@@ -17,3 +17,16 @@ Also Changing the code you can change the amount of pendulums and its angle.
 # Links
 - Reference: https://web.mit.edu/jorloff/www/chaosTalk/double-pendulum/double-pendulum-en.html
 - Inspiration: https://www.youtube.com/watch?reload=9&v=uWzPe_S-RVE
+
+---
+
+<!-- portfolio-gallery:start -->
+## Gallery
+
+<p align="center">
+  <img src="readme_images/Pendulum%20(1)_169.webp" width="48%" />
+  <img src="readme_images/Pendulum%20(2)_169.webp" width="48%" />
+  <img src="readme_images/Pendulum%20(3)_169.webp" width="48%" />
+  <img src="readme_images/Pendulum%20(4)_169.webp" width="48%" />
+</p>
+<!-- portfolio-gallery:end -->

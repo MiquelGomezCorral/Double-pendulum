@@ -12,15 +12,15 @@ descriptionLong:
     Este proyecto iba a ser una prueba rápida de un día con Python, Pygame y NumPy, pero al final estuve experimentando con él durante tres días. El caos que genera un sistema de doble péndulo es realmente interesante. Las matemáticas son relativamente simples, basadas en dos ecuaciones algo largas, pero los resultados visuales pueden ser alucinantes. La simulación es personalizable con algunos botones y, si te animas, puedes modificar el código para seguir mejorándolo.
 technologies: [python, pygame, numpy]
 tags: [personal]
-logo: readme_images/Pendulum (1).webp
+logo: readme_images/Pendulum (2)_169.webp
 screenShoots:
-  - readme_images/Pendulum (1).webp
-  - readme_images/Pendulum (2).webp
-  - readme_images/Pendulum (3).webp
-  - readme_images/Pendulum (4).webp
-  - readme_images/Pendulum (5).webp
-  - readme_images/Pendulum (6).webp
-  - readme_images/Pendulum (7).webp
+  - readme_images/Pendulum (1)_169.webp
+  - readme_images/Pendulum (2)_169.webp
+  - readme_images/Pendulum (3)_169.webp
+  - readme_images/Pendulum (4)_169.webp
+  - readme_images/Pendulum (5)_169.webp
+  - readme_images/Pendulum (6)_169.webp
+  - readme_images/Pendulum (7)_169.webp
 youtube: Gw-FDuWRabM
 date:
   en: Sep 2024
@@ -31,5 +31,4 @@ keywords:
 slug: Double-pendulum
 relevancy: 40
 featured: false
-
 
