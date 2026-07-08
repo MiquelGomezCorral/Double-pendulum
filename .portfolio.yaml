@@ -13,6 +13,7 @@ descriptionLong:
 technologies: [python, pygame, numpy]
 tags: [personal]
 logo: readme_images/Pendulum (2)_169.webp
+gif: readme_images/Pendulum.gif
 screenShoots:
   - readme_images/Pendulum (1)_169.webp
   - readme_images/Pendulum (2)_169.webp
@@ -21,6 +22,7 @@ screenShoots:
   - readme_images/Pendulum (5)_169.webp
   - readme_images/Pendulum (6)_169.webp
   - readme_images/Pendulum (7)_169.webp
+  - readme_images/Pendulum.gif
 youtube: Gw-FDuWRabM
 date:
   en: Sep 2024
